@@ -91,11 +91,17 @@ button:hover, button:focus, .button:hover, .button:focus {
   height: 250px;
   margin-right: 40px;
   border-radius: 50%;
+
 }
 
 .profile {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.div_child{
+  position: relative;
+  left: 290px;
 }
 
 .page-footer {
