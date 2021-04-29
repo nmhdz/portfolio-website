@@ -7,9 +7,6 @@
   --active-link-color: #489c79;
   --secondary-text-color: #2b2b2b;
   --grid-primary-color: lightgray;
-  --animation-color-01: #edc655;
-  --animation-color-02: #fcffad;
-  --animation-color-03: #f76414;
   /*fonts*/
   --primary-font: 'Montserrat', sans-serif;
   --font-size-body: 16px;
@@ -170,50 +167,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 }
 
-@keyframes color-change {
-  0% {
-    fill: var(--animation-color-01);
-  }
 
-  50% {
-    fill: var(--animation-color-02);
-
-    100% {
-      fill: var(--animation-color-03);
-    }
-  }
-
-  .sun {
-    animation: 4s color-change infinite alternate linear;
-  }
-
-  @keyframes cloud-move {
-    from {
-      transform: translate(0, 50px);
-    }
-
-    to {
-      transform: translate(200px, 50px);
-    }
-  }
-
-  .cloud-front {
-    animation: 30s cloud-move infinite alternate linear;
-  }
-
-  @keyframes cloud-move-reverse {
-    from {
-      transform: translate(446px, 48px);
-    }
-
-    to {
-      transform: translate(100px, 48px);
-    }
-  }
-
-  .cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
-  }
 
   @media all and (max-width: 500px) {
     .grid {
