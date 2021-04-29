@@ -141,6 +141,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .css-main{
   width: 90%;
   margin: auto;
+  text-align: center;
 }
 
 .page-header__item {
