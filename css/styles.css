@@ -88,7 +88,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   height: 250px;
   margin-right: 40px;
   border-radius: 50%;
-
 }
 
 .profile {
@@ -96,7 +95,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin: 0 auto;
 }
 
-.div_child{
+.div_child {
   position: relative;
   left: 290px;
 }
@@ -114,7 +113,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 20px;
 }
 
-.css-main{
+.css-main {
   width: 90%;
   margin: auto;
   text-align: center;
@@ -168,31 +167,29 @@ button:hover, button:focus, .button:hover, .button:focus {
   }
 }
 
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
 
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
-  @media all and (max-width: 500px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
+@media all and (max-width: 750px) {
+  .grid {
+    grid-gap: 10px;
   }
 
-  @media all and (min-width: 500px) and (max-width: 750px) {
-    .grid {
-      grid-template-columns: 1fr 1fr;
-    }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
   }
 
-  @media all and (max-width: 750px) {
-    .grid {
-      grid-gap: 10px;
-    }
-
-    .grid__item:last-child {
-      grid-column: auto / auto;
-      grid-row: auto / auto;
-    }
-
-    h1 {
-      font-size: 22px;
-    }
+  h1 {
+    font-size: 22px;
   }
+}
