@@ -113,7 +113,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin: 0 auto;
 }
 
-.div_child{
+.div_child {
   position: relative;
   left: 290px;
 }
@@ -138,13 +138,13 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 20px;
 }
 
-.css-main{
+.css-main {
   width: 90%;
   margin: auto;
   text-align: center;
 }
 
-.table-center{
+.table-center {
   margin-left: auto;
   margin-right: auto;
 }
@@ -205,8 +205,6 @@ button:hover, button:focus, .button:hover, .button:focus {
     grid-row: 1 / 3;
   }
 }
-
-
 
 @media all and (max-width: 500px) {
   .grid {
