@@ -136,7 +136,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   display: flex;
   width: 100%;
   padding: 20px 50px 0;
-  border-bottom: solid black 1px;
+  border-bottom: solid #b7b7b7 1px;
 }
 
 .css-main {
