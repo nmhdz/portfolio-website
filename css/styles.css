@@ -1,7 +1,7 @@
 :root {
   /*colors*/
-  --bg-color: #fff;
-  --secondary-color: #e0b354;
+  --bg-color: #ECE9E4;
+  --secondary-color: #47443F;
   --link-color: #5f7b82;
   --visited-link-color: #05676e;
   --active-link-color: #A0937D;
@@ -21,6 +21,7 @@ body {
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.6;
+  background-color: #ECE9E4;
 }
 
 h1 {
