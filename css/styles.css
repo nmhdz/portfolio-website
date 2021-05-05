@@ -2,7 +2,7 @@
   /*colors*/
   --bg-color: #fff;
   --secondary-color: #e0b354;
-  --link-color: #000000;
+  --link-color: #5f7b82;
   --visited-link-color: #05676e;
   --active-link-color: #A0937D;
   --secondary-text-color: #2b2b2b;
@@ -115,7 +115,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 .page-header {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 20px 50px 0;
+  border-bottom: solid #b7b7b7 1px;
 }
 
 .css-main {
