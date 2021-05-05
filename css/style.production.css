@@ -109,8 +109,17 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .profile {
-  max-width: 700px;
+  width: 90%;
+  min-width: 300px;
+  max-width: 900px;
+  height: auto;
   margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.home-body{
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .div_child {
