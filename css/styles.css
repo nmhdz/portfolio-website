@@ -77,10 +77,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   opacity: 0.8;
 }
 
-.button__secondary {
-  background-color: var(--secondary-color);
-  color: var(--secondary-text-color);
-}
 
 .profile__portrait {
   float: left;
@@ -110,7 +106,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 .page-header {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 20px 50px 0;
+  border-bottom: solid #b7b7b7 1px;
 }
 
 .css-main {
