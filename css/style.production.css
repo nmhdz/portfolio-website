@@ -20,7 +20,7 @@ h1 {
 }
 
 a {
-  color: #357b70;
+  color: #000000;
 }
 
 a:visited {
@@ -35,7 +35,7 @@ a:hover, a:focus {
 
 a:active {
   /* selected link */
-  color: #489c79;
+  color: #A0937D;
 }
 
 .navigation-list__item--active {
