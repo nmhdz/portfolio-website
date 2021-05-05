@@ -102,10 +102,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 .profile__portrait {
   float: left;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin-right: 40px;
   border-radius: 50%;
+  padding: 10px;
 }
 
 .profile {
