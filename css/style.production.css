@@ -113,6 +113,11 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin: 0 auto;
 }
 
+.home-body{
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .div_child {
   position: relative;
   left: 290px;
