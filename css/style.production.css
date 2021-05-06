@@ -17,6 +17,7 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 700;
+  font-family: 'Prata', serif;
 }
 
 a {
@@ -49,8 +50,8 @@ a:active {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #5f7b82;
-  color: #fff;
+  background-color: #47443F;
+  color: #ECE9E4;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
@@ -68,8 +69,8 @@ button {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #5f7b82;
-  color: #fff;
+  background-color: #47443F;
+  color: #ECE9E4;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
@@ -110,11 +111,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 20px;
 }
 
-.div_child {
-  position: relative;
-  left: 290px;
-}
-
 .page-footer {
   clear: both;
   display: flex;
@@ -133,6 +129,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   letter-spacing: 0.05em;
   line-height: 1.8;
 }
+
 
 .css-main {
   width: 90%;
