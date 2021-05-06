@@ -138,18 +138,20 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 /*About Page*/
-
-.main-about{
+.main-about {
   text-align: center;
   width: 70%;
   margin: 0 auto;
 }
 
-
-
 /*Contact Page*/
+.main-contact {
+  text-align: center;
+}
 
-
+.contact-info {
+  padding: 10px;
+}
 
 #contact-form {
   display: flex;
@@ -160,9 +162,40 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 20px;
 }
 
+#contact__button {
+  border: none;
+  font-family: var(--primary-font);
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+  text-decoration: none;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
 
+#contact-email {
+  border: solid #A0937D 1px;
+  border-radius: 5px;
+}
+
+#contact-phone-number {
+  border: solid #A0937D 1px;
+  border-radius: 5px;
+}
+
+#send-a-message {
+  height: 100px;
+  border: solid #A0937D 1px;
+  border-radius: 5px;
+}
 
 /*Work Page*/
+.main-work {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
 
 .grid__item {
   display: inline-block;
