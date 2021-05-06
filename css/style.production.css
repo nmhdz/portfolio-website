@@ -8,16 +8,17 @@
           box-sizing: border-box;
 }
 
+/*Fonts and Styling*/
+h1 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   line-height: 1.6;
   background-color: #ECE9E4;
-}
-
-h1 {
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -39,24 +40,15 @@ a:active {
   color: #A0937D;
 }
 
-.navigation-list__item--active {
-  text-decoration: none;
-}
-
 .button {
-  /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
   font-family: 'Nunito Sans', sans-serif;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #47443F;
   color: #ECE9E4;
   text-decoration: none;
-  /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
@@ -67,19 +59,14 @@ a:active {
 }
 
 button {
-  /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
   font-family: 'Nunito Sans', sans-serif;
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #47443F;
   color: #ECE9E4;
   text-decoration: none;
-  /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
@@ -96,44 +83,10 @@ button:hover, button:focus, .button:hover, .button:focus {
   opacity: 0.8;
 }
 
-.profile__portrait {
-  float: left;
-  width: 300px;
-  height: 300px;
-  margin-right: 40px;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.profile {
-  width: 90%;
-  min-width: 300px;
-  max-width: 900px;
-  height: auto;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
-
+/*Page Settings*/
 .main-home .main-work .main-about .main-contact {
   margin: 0 auto;
   padding: 20px;
-}
-
-.main-work .main-about .main-contact{
-  text-align: center;
-  width: 90%;
-}
-
-.page-footer {
-  clear: both;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
 }
 
 .page-header {
@@ -172,7 +125,58 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin-left: 15px;
 }
 
-#contact-form{
+.navigation-list__item--active {
+  text-decoration: none;
+}
+
+.page-footer {
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+/*Home Page*/
+.profile {
+  width: 90%;
+  min-width: 300px;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.profile__portrait {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/*About Page*/
+.main-about {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*Contact Page*/
+.main-contact {
+  text-align: center;
+}
+
+.contact-info {
+  padding: 10px;
+}
+
+#contact-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,13 +192,46 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 20px;
 }
 
-/*start grid fallback*/
+#contact__button {
+  border: none;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #47443F;
+  color: #ECE9E4;
+  text-decoration: none;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+#contact-email {
+  border: solid #A0937D 1px;
+  border-radius: 5px;
+}
+
+#contact-phone-number {
+  border: solid #A0937D 1px;
+  border-radius: 5px;
+}
+
+#send-a-message {
+  height: 100px;
+  border: solid #A0937D 1px;
+  border-radius: 5px;
+}
+
+/*Work Page*/
+.main-work {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;
 }
 
-/*end grid fallback*/
 @supports (display:grid) {
   .grid {
     display: -ms-grid;
