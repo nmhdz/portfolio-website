@@ -1,17 +1,13 @@
 :root {
   /*colors*/
-  --bg-color: #D4CDC8;
+  --bg-color: #ECE9E4;
   --secondary-color: #47443F;
-  --link-color: #5f7b82;
-  --visited-link-color: #05676e;
-  --active-link-color: #A0937D;
   --secondary-text-color: #2b2b2b;
   --grid-primary-color: lightgray;
   /*fonts*/
   --primary-font: 'Lato', sans-serif;
   --heading-font: 'Cinzel', serif;
   --font-size-body: 16px;
-  --font-weight-h1: 700;
 }
 
 * {
@@ -22,32 +18,29 @@
 h1 {
   font-size: 30px;
   font-family: var(--heading-font);
+  letter-spacing: 3px;
+  font-weight: lighter;
 }
 
 body {
   font-family: var(--primary-font);
-  font-size: 18px;
+  font-size: var(--font-size-body);
   line-height: 1.6;
-  background-color: #ECE9E4;
+  background-color: var(--bg-color);
 }
 
 a {
-  color: var(--link-color);
+  color: var(--secondary-color);
 }
 
-a:visited {
+a:visited a:active {
   /* visited link */
-  color: var(--visited-link-color);
+  opacity: 0.8;
 }
 
 a:hover, a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
-}
-
-a:active {
-  /* selected link */
-  color: var(--active-link-color);
 }
 
 .button, button {
