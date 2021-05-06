@@ -51,19 +51,14 @@ a:active {
 }
 
 .button, button {
-  /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
   font-family: var(--primary-font);
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: var(--secondary-color);
   color: var(--bg-color);
   text-decoration: none;
-  /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: 10px;
   border-radius: 3px;
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition-duration: 0.2s;
   transition-property: opacity;
@@ -80,11 +75,6 @@ button:hover, button:focus, .button:hover, .button:focus {
 .main-home .main-work .main-about .main-contact {
   margin: 0 auto;
   padding: 20px;
-}
-
-.main-work .main-about .main-contact {
-  text-align: center;
-  width: 90%;
 }
 
 .page-header {
@@ -147,6 +137,20 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 10px;
 }
 
+/*About Page*/
+
+.main-about{
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+/*Contact Page*/
+
+
+
 #contact-form {
   display: flex;
   flex-direction: column;
@@ -156,13 +160,15 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding: 20px;
 }
 
+
+
 /*Work Page*/
+
 .grid__item {
   display: inline-block;
   width: 33%;
 }
 
-/*Responsive page settings*/
 @supports (display:grid) {
   .grid {
     display: grid;
