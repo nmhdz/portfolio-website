@@ -16,7 +16,7 @@ body {
 
 h1 {
   font-size: 30px;
-  font-family: 'Tenor Sans', sans serif;
+  font-family: 'Nothing You Could Do', cursive;
 }
 
 a {
@@ -67,7 +67,6 @@ button {
   display: inline-block;
   /* takes the font from the outer container */
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: #47443F;
   color: #ECE9E4;
