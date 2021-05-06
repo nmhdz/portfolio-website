@@ -146,6 +146,15 @@ button:hover, button:focus, .button:hover, .button:focus {
   margin-left: 15px;
 }
 
+#contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
 /*start grid fallback*/
 .grid__item {
   display: inline-block;
