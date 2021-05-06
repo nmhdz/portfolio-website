@@ -9,6 +9,7 @@
   --grid-primary-color: lightgray;
   /*fonts*/
   --primary-font: 'Nunito Sans', sans-serif;
+  --heading-font: 'Prata', serif;
   --font-size-body: 16px;
   --font-weight-h1: 700;
 }
@@ -27,6 +28,7 @@ body {
 h1 {
   font-size: 30px;
   font-weight: var(--font-weight-h1);
+  font-family: var(--heading-font);
 }
 
 a {
