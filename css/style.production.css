@@ -114,9 +114,14 @@ button:hover, button:focus, .button:hover, .button:focus {
   padding-bottom: 50px;
 }
 
-.home-body {
+.main-home .main-work .main-about .main-contact {
   margin: 0 auto;
   padding: 20px;
+}
+
+.main-work .main-about .main-contact{
+  text-align: center;
+  width: 90%;
 }
 
 .page-footer {
@@ -143,13 +148,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   font-size: 14px;
   letter-spacing: 0.05em;
   line-height: 1.8;
-}
-
-
-.css-main {
-  width: 90%;
-  margin: auto;
-  text-align: center;
 }
 
 .page-header__item {
