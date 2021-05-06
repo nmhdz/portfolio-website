@@ -1,6 +1,6 @@
 :root {
   /*colors*/
-  --bg-color: #ECE9E4;
+  --bg-color: #D4CDC8;
   --secondary-color: #47443F;
   --link-color: #5f7b82;
   --visited-link-color: #05676e;
@@ -8,8 +8,8 @@
   --secondary-text-color: #2b2b2b;
   --grid-primary-color: lightgray;
   /*fonts*/
-  --primary-font: 'Nunito Sans', sans-serif;
-  --heading-font: 'Montserrat', sans-serif;
+  --primary-font: 'Lato', sans-serif;
+  --heading-font: 'Cinzel', serif;
   --font-size-body: 16px;
   --font-weight-h1: 700;
 }
