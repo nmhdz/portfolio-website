@@ -73,7 +73,7 @@ button {
   color: #ECE9E4;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
-  padding: 20px;
+  padding: 10px;
   border-radius: 3px;
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
