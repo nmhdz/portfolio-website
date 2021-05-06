@@ -59,7 +59,7 @@ a:active {
   border: none;
   display: inline-block;
   /* takes the font from the outer container */
-  font-family: inherit;
+  font-family: var(--primary-font);
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: var(--secondary-color);
   color: var(--bg-color);
