@@ -8,7 +8,7 @@
   <link rel="icon" href="img/favicon.ico">
   <link rel="stylesheet" type="text/css" href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.production.css">
 </head>
 
@@ -39,6 +39,22 @@
     <h1>
       Contact Me
     </h1>
+
+    <div>
+      <form action="post" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">Email: </label>
+        <input type="email" id="contact-email" required><br>
+
+        <label class="standard-label" for="contact-phone-number">Telephone: </label>
+        <input type="tel" id="contact-phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+
+        <label class="standard-label" for="send-a-message">Message: </label>
+        <textarea maxlength="240" id="send-a-message" required></textarea><br>
+
+        <input type="submit" value="Send message">
+      </form>
+    </div>
+
     <div>
       Skype <a href="skype:live:nmhdz18"> live:nmhdz18</a><br>
       <a href="mailto:office@nmontana.cf@gmail.com">nmontana.cf@gmail.com</a><br>
@@ -50,18 +66,7 @@
       El Paso, TX<br>
       United States<br>
     </p>
-    <form action="post" method="post" id="contact-form">
-      <label class="standard-label" for="contact-email">Email: </label>
-      <input type="email" id="contact-email" required><br>
 
-      <label class="standard-label" for="contact-phone-number">Telephone: </label>
-      <input type="tel" id="contact-phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
-
-      <label class="standard-label" for="send-a-message">Message: </label>
-      <textarea maxlength="240" id="send-a-message" required></textarea><br>
-
-      <input type="submit" value="Send message">
-    </form>
   </main>
 
   <footer class="page-footer">
