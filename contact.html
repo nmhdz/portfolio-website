@@ -35,37 +35,32 @@
     </nav>
   </header>
 
-  <main class="main-contact">
+  <div class="main-contact">
     <h1>
       Contact Me
     </h1>
-
     <div>
       <form action="post" method="post" id="contact-form">
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required><br>
-
+        <label class="standard-label" for="contact-email">Email <i>(required):</i></label>
+        <input type="email" id="contact-email" required>
+        <br>
         <label class="standard-label" for="contact-phone-number">Telephone: </label>
-        <input type="tel" id="contact-phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
-
-        <label class="standard-label" for="send-a-message">Message: </label>
-        <textarea maxlength="240" id="send-a-message" required></textarea><br>
-
-        <input type="submit" value="Send Message" class="button">
+        <input type="tel" id="contact-phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+        <br>
+        <label class="standard-label" for="send-a-message">Message <i>(required):</i></label>
+        <textarea maxlength="240" id="send-a-message" required></textarea>
+        <br>
+        <input type="submit" id="contact__button" value="Send Message">
       </form>
     </div>
-
-    <p>
-      Natalie Hernandez <br>
+    <div class="contact-info">
+      <strong>Natalie Hernandez</strong><br>
       El Paso, TX<br>
-
-    </p>
-
-    <div>
+      <br>
       Skype: <a href="skype:live:nmhdz18"> live:nmhdz18</a><br>
       Email: <a href="mailto:office@nmontana.cf@gmail.com">nmontana.cf@gmail.com</a>
     </div>
-  </main>
+  </div>
 
   <footer class="page-footer">
     <p>Find me on</p>
